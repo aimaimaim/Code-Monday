@@ -1,18 +1,13 @@
 import React from 'react';
-
-
 import MyTable from './MyTable';
-
-
+import Navbar from './Navbar';
 const App = () =>{
     return (
-        <div >
-           {/* <Button variant="contained">Default</Button> */}
-           <MyTable/>
-           
+        <div>
+            <Navbar/>
+           <MyTable/> 
         </div>
     )
 }
-
 
 export default App;

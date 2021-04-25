@@ -52,9 +52,9 @@ const options = {
 };
   
   return(
-    <html style={{'background-color':'#B9D9EB'}}>
-    <div  >
-    <center><div style={{'padding-bottom':'40px','padding-top':'100px','width':'1000px'}}><MuiThemeProvider theme={this.getMuiTheme()}>
+    
+    <div style={{'backgroundColor':'#B9D9EB'}} >
+    <center><div style={{'paddingBottom':'40px','paddingTop':'100px','width':'1000px'}}><MuiThemeProvider theme={this.getMuiTheme()}>
     <MUIDataTable
   title={"This is Covid-19 Report as of "+covid?.Date}
   data={data}
@@ -63,9 +63,9 @@ const options = {
 /> </MuiThemeProvider>
 
 
-</div><Button style={{'margin-bottom':'50px'}}variant="outlined" color="primary" href="https://www.codemonday.com/services/#contact">
+</div><Button style={{'marginBottom':'50px'}}variant="outlined" color="primary" href="https://www.codemonday.com/services/#contact">
 Free Consulting
-      </Button></center></div></html>
+      </Button></center></div>
 
 
 );}
@@ -73,4 +73,3 @@ Free Consulting
 
   }
 export default MyTable;
-
