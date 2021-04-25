@@ -32,5 +32,12 @@ b2 {
 
 div {
   width:1000;
-  /* height: auto; */
+}
+
+h1{
+  padding: auto;
+  margin: auto;
+  color: whitesmoke;
+  background-color: black;
+  text-align: center;
 }
