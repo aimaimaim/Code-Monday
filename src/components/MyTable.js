@@ -53,9 +53,9 @@ const options = {
   
   return(
     
-    <div style={{'backgroundColor':'#B9D9EB'}} >
-    <center><div style={{'paddingBottom':'40px','paddingTop':'100px','width':'1000px'}}><MuiThemeProvider theme={this.getMuiTheme()}>
-    <MUIDataTable
+  <div style={{'backgroundColor':'#B9D9EB'}} >
+  <center><div style={{'paddingBottom':'40px','paddingTop':'100px','width':'1000px'}}><MuiThemeProvider theme={this.getMuiTheme()}>
+  <MUIDataTable
   title={"This is Covid-19 Report as of "+covid?.Date}
   data={data}
   columns={columns}
@@ -63,7 +63,8 @@ const options = {
 /> </MuiThemeProvider>
 
 
-</div><Button style={{'marginBottom':'50px'}}variant="outlined" color="primary" href="https://www.codemonday.com/services/#contact">
+</div>
+<Button style={{'marginBottom':'50px'}}variant="outlined" color="primary" href="https://www.codemonday.com/services/#contact">
 Free Consulting
       </Button></center></div>
 
